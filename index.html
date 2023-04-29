@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/30334349a7.js" crossorigin="anonymous"></script>
+    <title>Tic Tac Toe Grid</title>
+</head>
+<body>
+    
+    <div id="contendor">
+        <div class="header">
+            <div class="header-icon">
+                <span class="undo-span"><i id="icon-restart" class="fa-solid fa-rotate"></i></span>
+                <span class="undo-span" id="span-desc"><i class="fa fa-reply" aria-hidden="true"></i></span>
+                <span class="undo-span"><i class="fa-sharp fa-solid fa-x" id="win-x"> = 0 </i> </span>
+                <span class="undo-span"><i class="fa-sharp fa-solid fa-o" id="win-o"> = 0</i> </span>
+            </div>
+            <!-- <h1>Tic Tac Toe</h1> -->
+            <div></div>
+          </div>
+        <div id="board">
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+            <div class="cells"></div>
+        </div>
+    </div>
+    <div class="victoriaX">
+        <div class="content">
+            <h2>Victoria</h2>
+            <p>En hora buena</p>
+            <img src="img/x.png" alt="Imagen de victoria">
+        </div>
+    </div>
+    <div class="victoriaO">
+        <div class="content">
+            <h2>Victoria</h2>
+            <p>En hora buena</p>
+            <img src="img/o.png" alt="Imagen de victoria">
+        </div>
+    </div>
+    <div class="empate">
+        <div class="content">
+            <h2>Empatados</h2>
+            <p>Excelente juego</p>
+            <img src="img/empate.png" alt="Imagen de victoria">
+        </div>
+    </div>
+</body>
+</html>
