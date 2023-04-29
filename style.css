@@ -68,7 +68,8 @@ body{
     top: 0;
 }
 .content {
-    width: 30%;
+    width: 90%;
+    max-width: 500px;
     padding: 3rem;
     background: #fff;
     border-radius: 15px;
@@ -77,6 +78,6 @@ body{
     margin-bottom: 1rem;
 }
 .content img {
-    width: 180px;
+    width: 50%;
     margin: 1rem;
 }
